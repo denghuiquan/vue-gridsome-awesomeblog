@@ -9,7 +9,7 @@ import 'startbootstrap-clean-blog/dist/css/styles.css'
 import DefaultLayout from '~/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
-  Vue.mixins({
+  sVue.mixin({
     data () {
       return {
         GRIDSOME_API_URL: process.env.GRIDSOME_API_URL
