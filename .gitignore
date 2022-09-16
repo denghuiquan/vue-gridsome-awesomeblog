@@ -7,5 +7,4 @@ dist
 data
 app
 .env
-.env.*
 clean-blog
