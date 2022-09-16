@@ -7,6 +7,8 @@
 module.exports = {
   siteName: '乐享百知',
   siteDescription: '一个专注于学习收集分享新技术新思想的博客',
+  siteUrl: 'https://denghuiquan.github.io',
+  pathPrefix: '/vue-gridsome-awesomeblog',
   plugins: [
     {
       use: '@gridsome/source-filesystem',

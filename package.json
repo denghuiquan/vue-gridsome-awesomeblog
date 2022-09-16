@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
@@ -13,6 +15,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "@travisreynolds/gridsome-source-strapi": "^0.4.4",
     "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
     "gridsome": "^0.7.0",
     "gridsome-source-strapi-v4": "^0.2.0",
     "markdown-it": "^13.0.1",
